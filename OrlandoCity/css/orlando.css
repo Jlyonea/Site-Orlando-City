@@ -1,0 +1,486 @@
+@font-face {
+    font-family: 'Open-Sans';
+    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'Open-light';
+    src: url("../fonts/OpenSansCondensed-Light.ttf");
+    font-size: 1em;
+}
+
+
+body {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(94, 41, 154, .8);
+    z-index: 2;
+    position: absolute;
+}
+
+header .container {
+    position: relative;
+}
+
+header .header-black{
+    background-color: #000;
+    height: 40px;
+}
+header .header-black li{
+    background-image: url("../img/clubs.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 4px 8px;
+}
+header .header-black li.club-01{
+    background-position: 0px 0px;
+}
+header .header-black li.club-02{
+    background-position: -47px 0px;
+}
+header .header-black li.club-03{
+    background-position: -94px 0px;
+}
+header .header-black li.club-04{
+    background-position: -139px 0px;
+}
+header .header-black li.club-05{
+    background-position: -188px 0px;
+}
+header .header-black li.club-06{
+    background-position: -239px 0px;
+}
+header .header-black li.club-07{
+    background-position: -290px 0px;
+}
+header .header-black li.club-08{
+    background-position: -336px 0px;
+}
+header .header-black li.club-09{
+    background-position: -381px 0px;
+}
+header .header-black li.club-10{
+    background-position: -426px 0px;
+}
+header .header-black li.club-11{
+    background-position: -477px 0px;
+}
+header .header-black li.club-12{
+    background-position: -527px 0px;
+}
+header .header-black li.club-13{
+    background-position: -578px 0px;
+}
+header .header-black li.club-14{
+    background-position: -629px 0px;
+}
+header .header-black li.club-15{
+    background-position: -678px 0px;
+}
+header .header-black li.club-16{
+    background-position: -722px 0px;
+}
+header .header-black li.club-17{
+    background-position: -760px 0px;
+}
+header .header-black li.club-18{
+    background-position: -807px 0px;
+}
+header .header-black li.club-19{
+    background-position: -857px 0px;
+}
+header .header-black li.club-20{
+    background-position: -903px 0px;
+}
+header .header-black li.club-21{
+    background-position: -947px 0px;
+}
+header .header-black li.club-22{
+    background-position: -995px 0px;
+}
+header .header-black li a{
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+header #logotipo {
+    position: absolute;
+    top: -140px;
+
+}
+
+#menu {
+    margin: 24px;
+    margin-left: 1210px;
+}
+#menu li {
+    display:table-cell;
+    padding: 10px 25px;
+    font-family: "Open-Sans";
+}
+
+#menu li.search input{
+    background-color: #5c2d90;
+    color: #fff;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+}
+#menu li.search span{
+    position: absolute;
+    margin-top:  0px;
+    margin-left: 160px;
+}
+#menu li.search ::placeholder{
+    color: #fff;
+}
+#menu li.search button{
+    background: none;
+    border: none;
+}
+#menu li.search button i{
+    font-size: 14px;
+    color: rgba(255, 255, 255, .5);
+}
+#menu li a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+#menu li:hover {
+    text-decoration:underline;
+}
+#banner {
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    background: url("../img/banner.jpg") no-repeat;
+    background-position: 0px -112px;
+    background-size: cover;
+    top: 0px;
+}
+#banner h1{
+    color:#fff;
+    top: 450px;
+    position: relative;
+    font-size: 140px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+    font-family: "Open-light";
+    margin-left: 240px;
+}
+#banner h1 small{
+    font-size: 32px;
+    display: block;
+    color: #fff;
+    font-family: "Open-Sans";
+    font-weight: bold;
+}
+
+
+
+#news {
+    position: relative;
+    top: 975px;
+}
+
+#news h2{
+    color:#5E2799;
+    font-family: 'Open-light';
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#news hr{
+    border: rgb(255, 251, 0) solid 5px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#news .thumbnails{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#news .thumbnails .item{
+	padding: 10px;
+}
+
+#news .thumbnails .item img{
+	width: 100%;
+}
+
+#news .thumbnails h3{
+    color: #5E299A;
+    font-size: 18px;
+    font-family: "Open-sans";
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-right: 93px;
+}
+
+#news .thumbnails time{
+    color: #a7a7a7a4;
+    font-size: 18px;
+    font-family: "Open-sans";
+}
+
+
+#estatisticas {
+    background-color: #5E299A;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 1050px;
+}
+
+#estatisticas p{
+    color: #fde092;
+    text-transform: uppercase;
+    font-family: 'Open-Sans';
+    font-size: 64px;
+    margin-top: 38px;
+}
+
+#estatisticas p small {
+    color:#fff;
+    font-size: 24px;
+    display: block;
+}
+
+#call-to-action {
+    position: relative;
+    top: 1150px;
+    text-align: center;
+}
+
+#call-to-action .topvideos{
+    position: absolute;
+    top: -955px;
+    left: 270px;
+}
+
+#call-to-action .topvideos .vv{
+    margin-bottom: 25px;
+}
+
+#call-to-action .topvideos .vv hr{
+    margin-top: -10px;
+}
+
+#call-to-action .topvideos .vt{
+    margin-top: 0px;
+}
+
+#call-to-action h2{
+    color:#5E2799;
+    font-family: 'Open-light';
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#call-to-action hr{
+    border: rgb(255, 251, 0) solid 5px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#call-to-action p{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color:#656565;
+}
+
+#call-to-action .btn {
+    min-width: 164px;
+    height: 44px;
+    line-height: 32px;
+    border-radius: 0;
+}
+
+#call-to-action .btn-roxo{
+    color: #fff;
+    background-color: #5e229a;
+    border-color: #5e229a;
+}
+
+#call-to-action .btn-amarelo{
+    color: #000;
+    background-color: #fde192;
+    border-color: #fde192;
+}
+
+#call-to-action .row-max-400 {
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+footer {
+    position: relative;
+    top: 1250px;
+    width: 100%;
+    background: #11171d;
+}
+
+footer .container {
+    width: 85%;
+}
+
+footer .row {
+    width: 100%;
+}
+
+footer .row p{
+    line-height: 43px;
+}
+
+footer .row-cinza-claro{
+    height: 200px;
+    background-color: #171f26;
+}
+
+footer .row-cinza-escuro{
+    height: 68px;
+    background-color: #11171d;
+    border-top: #242D37 1px solid;
+}
+
+footer .row-cinza-escuro p{
+    margin-top: 8px;
+}
+
+footer .float-start {
+    font-family: 'Open-sans';
+    font-size: 14px;
+    color:#666;
+}
+
+footer .text-roxo{
+    color: #623291;
+    font-family: 'Open-sans';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer .logotipo {
+    margin-top: 28px;
+}
+
+footer .col-popular-post,
+footer .col-links,
+footer .col-get-in-toutch{
+    margin-top: 40px;
+}
+
+footer .row-cols #primeiroh5{
+    margin-bottom: 14px;
+}
+
+footer .row-cols h4{
+    font-family: 'Open-Sans';
+    font-size: 16px;
+    color: #FFF;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #242d37;
+}
+
+footer .row-cols h5{
+    color: #666;
+    font-family: arial;
+    font-size: 14px;
+    margin-bottom: -1px;
+}
+
+footer .row-cols time{
+    color: #fde092;
+    font-family: arial;
+    font-size: 14px;
+}
+
+footer .col-links a{
+    color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+footer .col-links .fa{
+    margin: 0 6px;
+}
+
+footer .col-links li{
+    margin-bottom: 10px;
+}
+
+footer .col-get-in-toutch address{
+    color: #666;
+    font-family: arial;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+footer .col-get-in-toutch a{
+    color:#666;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+footer .col-get-in-toutch i{
+    color: #9B9B9B;
+    font-size: 20px;
+
+}
+
+footer .col-get-in-toutch address span{
+    display: inline-block;
+    margin-left: 6px;
+}
+
+footer .col-get-in-toutch address i{
+    top: -15px;
+    position: relative;
+}
+
+footer .col-get-in-toutch i{
+    color: #9B9B9B;
+    font-size: 20px;
+    margin: 0 6px;
+}
+
+footer .col-get-in-toutch p{
+    line-height: 20px;
+}
+
+footer .list-socials{
+    margin-top: -4px;
+    margin-left: 5px;
+}
+
+footer .list-socials a{
+    display: inline-block;
+    border: #9b9b9b 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 2px 3px;
+}
+
+footer .list-socials i{
+    font-size: 16px;
+    margin: 5px auto;
+}
+
+.row video{
+    width: 60%;
+    margin: auto;
+}
