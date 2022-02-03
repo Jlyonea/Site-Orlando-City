@@ -13,7 +13,7 @@
 body {
     width: 100%;
     background-color: rgb(255, 255, 255);
-    height: 100%;
+    height: 2053px;
 }
 
 header {
@@ -186,7 +186,8 @@ header #logotipo {
 
 #news {
     position: relative;
-    top: 975px;
+    top: 1075px;
+    margin-bottom: 100px;
 }
 
 #news h2{
@@ -197,7 +198,7 @@ header #logotipo {
     text-align: center;
 }
 #news hr{
-    border: rgb(255, 251, 0) solid 5px;
+    border: rgb(255, 251, 0) solid 7px;
     width: 200px;
     margin: 0 auto;
 }
@@ -287,7 +288,7 @@ header #logotipo {
 }
 
 #call-to-action hr{
-    border: rgb(255, 251, 0) solid 5px;
+    border: rgb(255, 251, 0) solid 7px;
     width: 400px;
     margin: 0 auto;
 }
@@ -335,6 +336,7 @@ footer .container {
 
 footer .row {
     width: 100%;
+    margin-left: 0;
 }
 
 footer .row p{
@@ -342,8 +344,12 @@ footer .row p{
 }
 
 footer .row-cinza-claro{
-    height: 200px;
+    height: 210px;
     background-color: #171f26;
+}
+
+footer .row-cinza-claro .col-md-2{
+    display: block;
 }
 
 footer .row-cinza-escuro{
@@ -371,6 +377,18 @@ footer .text-roxo{
 
 footer .logotipo {
     margin-top: 28px;
+}
+
+footer .col-popular-post{
+    display: block;
+}
+
+footer .col-links{
+    display: block;
+}
+
+footer .col-get-in-toutch h4, address, p{
+    display: block;
 }
 
 footer .col-popular-post,
@@ -483,4 +501,18 @@ footer .list-socials i{
 .row video{
     width: 60%;
     margin: auto;
+}
+
+#btn-bars, #btn-search,
+#btn-news-prev, #btn-news-next{
+    display: none;
+}
+
+.hidden-sm-up{
+    display: none;
+}
+
+footer .list-socials .hidden-sm-up{
+    display: none;
+
 }

@@ -15,3 +15,26 @@ $(".owl-carousel").owlCarousel({
     }
 
 });
+
+var owl = $(".owl-carousel");
+owl.owlCarousel();
+
+    $('#btn-news-prev').click(function(){
+
+        owl.trigger('prev.owl.carousel', [500]);
+
+})
+
+    $('#btn-news-next').click(function(){
+    
+        owl.trigger('next.owl.carousel', [500]);
+
+})
+
+    $( "#page-up" ) .click(function(event){
+        event.preventDefault();
+        $('html, body').animate({
+            duration: '2',
+            scrollTop: 0
+        }, 0);
+        });
