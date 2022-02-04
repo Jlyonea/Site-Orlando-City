@@ -37,4 +37,18 @@ owl.owlCarousel();
             duration: '2',
             scrollTop: 0
         }, 0);
-        });
+
+});
+
+    $('#btn-bars, #menu-mobile-mask, .btn-light').on("click", function(){
+
+        $('header').toggleClass("open-menu");
+
+});
+
+    $("#btn-search").on("click", function(){
+
+        $("header").toggleClass("open-search");
+        $("#input-search-mobile").focus();
+
+    })

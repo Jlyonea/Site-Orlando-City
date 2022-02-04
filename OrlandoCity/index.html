@@ -16,9 +16,30 @@
 
         <header>
             
+            <div id="menu-mobile-mask" class="hidden-sm-up">
+
+            </div>
+
+            <div id="menu-mobile" class="hidden-sm-up">
+
+                <ul class="list-unstyled">
+                    <li><a href="videos.html">Vídeos</a></li>
+                    <li><a href="#">Tickets</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Schedule</a></li>
+                </ul>
+
+                <div class="bar-close hidden-sm-up">
+                    <button type="button" class="btn btn-light"><i class="fas fa-times"></i></button>
+                </div>
+
+            </div>
+
             <div class="header-black">
                 
                 <div class="container">
+
+                    <input type="search" id="input-search-mobile" class="hidden-sm-up" placeholder="search...">
 
                     <button id="btn-bars" type="button"><i class ="fa fa-bars"></i></button>
                     <button id="btn-search" type="button"><i class ="fa fa-search"></i></button>
@@ -297,11 +318,6 @@
         <script src="lib/bootstrap/js/bootstrap.min.js"></script>
         <script src="lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
         <script src="js/efeitos.js"></script>
-        <script>
-        $(document).ready(function(){
-
-            });
-        </script>
 
     </body>
 </html>
